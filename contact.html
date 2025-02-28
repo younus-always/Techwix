@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Techwix - Technology IT Solutions Consultancy HTML5 Template</title>
-                            <!-- google-font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 
-                       <!-- font-awesome icon -->
-    <script src="https://kit.fontawesome.com/5dd3ee4b2f.js" crossorigin="anonymous"></script>
+<head>
+  <title>Techwix - Technology IT Solutions Consultancy HTML5 Template</title>
+  <!-- google-font -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <!-- font-awesome icon -->
+  <script src="https://kit.fontawesome.com/5dd3ee4b2f.js" crossorigin="anonymous"></script>
 
-    <!-- style.css -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+  <!-- style.css -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
       <div class="container">
         <div class="header_boxes">
-          <a href="index.html"
-            ><div class="logo"><img src="images/logo.png" alt="" /></div
-          ></a>
+          <a href="index.html">
+            <div class="logo"><img src="images/logo.png" alt="" /></div>
+          </a>
+          <!-- Menu list -->
           <div class="main_menu">
             <ul>
               <li>
-                <a href="index.html"
-                  >Home
+                <a href="index.html">Home
                   <span class="material-symbols-outlined">
                     expand_more
-                  </span></a
-                >
+                  </span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <a href="index.html">Home Main</a>
@@ -61,12 +64,10 @@
               </li>
               <li><a href="about.html">About us</a></li>
               <li>
-                <a href="#"
-                  >Pages
+                <a href="#">Pages
                   <span class="material-symbols-outlined">
                     expand_more
-                  </span></a
-                >
+                  </span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <a href="#">Our Team</a>
@@ -89,12 +90,10 @@
                 </ul>
               </li>
               <li>
-                <a href="#"
-                  >Blogs
+                <a href="#">Blogs
                   <span class="material-symbols-outlined">
                     expand_more
-                  </span></a
-                >
+                  </span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <a href="#">Blog Grid</a>
@@ -110,10 +109,13 @@
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
+
           <div class="header_right_button">
             <div class="shoppingcart">
               <span class="material-symbols-outlined"> shopping_cart </span>
               <span class="shopping-count">0</span>
+
+              <!-- Cart popup modal start -->
               <div class="shoppingcart-popup">
                 <div class="popup-item">
                   <div class="shooping-image">
@@ -153,6 +155,7 @@
                   <button class="check"><a href="#">Checkout</a></button>
                 </div>
               </div>
+              <!-- Cart popup modal end -->
             </div>
             <div class="searchicon">
               <span class="material-symbols-outlined"> search </span>
@@ -161,8 +164,11 @@
           </div>
         </div>
       </div>
-    </header>
+    </nav>
+  </header>
 
+  <main>
+    <!-- Hero section start -->
     <section id="contact_hero">
       <div class="container">
         <div class="contact-head">
@@ -175,7 +181,9 @@
       <div class="shape_3"><img src="./images/shape3.svg" alt="" /></div>
       <div class="shape_4"><img src="./images/shape4.svg" alt="" /></div>
     </section>
+    <!--  Hero section end -->
 
+    <!--  Address section start -->
     <section id="our_address">
       <div class="container">
         <div class="address_main_box">
@@ -212,7 +220,9 @@
         </div>
       </div>
     </section>
+    <!--  Address section end -->
 
+    <!--  Contact section start -->
     <section id="contact_details">
       <div class="container">
         <div class="form">
@@ -236,19 +246,19 @@
         </div>
       </div>
     </section>
+    <!--  Contact section end -->
 
+    <!--  Map section start -->
     <section id="map">
       <div class="map_location">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12323.470880675015!2d-73.97822450211699!3d40.75947327412568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1719495220697!5m2!1sen!2sbd"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
+    <!--  Map section start -->
 
+    <!-- Footer sectio -->
     <footer id="footer" class="contact_footer">
       <div class="container">
         <div class="footerWidgets">
@@ -291,17 +301,13 @@
               </div>
               <div class="addresslist">
                 <span class="material-symbols-outlined">mail</span>
-                <a href="https://mail.google.com/" target="_blank"
-                  >info@example.com</a
-                >
+                <a href="https://mail.google.com/" target="_blank">info@example.com</a>
               </div>
               <div class="addresslist">
                 <span class="material-symbols-outlined">pin_drop</span>
-                <a
-                  target="_blank"
-                  href="https://www.google.com/maps/search/60+east+65th+street,NY/@40.7668625,-73.9699779,17z/data=!3m1!4b1?entry=ttu"
-                  >60 East 65th Street, NY</a
-                >
+                <a target="_blank"
+                  href="https://www.google.com/maps/search/60+east+65th+street,NY/@40.7668625,-73.9699779,17z/data=!3m1!4b1?entry=ttu">60
+                  East 65th Street, NY</a>
               </div>
             </div>
           </div>
@@ -311,12 +317,14 @@
         © Copyrights 2022 techwix All rights reserved.
       </div>
     </footer>
-    <div id="goto_top">
-      <a href="#contact_hero"
-        ><span class="material-symbols-outlined"> arrow_upward </span></a>
-    </div>
+  </main>
 
+  <!--  go-to top -->
+  <div id="goto_top">
+    <a href="#contact_hero"><span class="material-symbols-outlined"> arrow_upward </span></a>
+  </div>
 
-    <script src="./js/script.js"></script>
-  </body>
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
